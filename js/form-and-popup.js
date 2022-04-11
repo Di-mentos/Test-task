@@ -28,7 +28,6 @@ document.addEventListener('click', function(q){
 		blockForm.style.opacity = "0";
 		blackBox.style.opacity = "0";
 		counter--;
-		console.log("counter= " + counter);
 		blockForm.addEventListener('transitionend', function f2(){
 			blockForm.style.display = "none";
 			blackBox.style.display = "none";
@@ -74,7 +73,6 @@ function feedbackForm(){
 		blockForm.style.display = "block";
 		blackBox.style.display = "block";
 		counter++;
-		console.log("counter= " + counter);
 		if(window.getComputedStyle(blockForm).display == "block"){
 			blockForm.style.opacity = "1";
 			blackBox.style.opacity = "1";
