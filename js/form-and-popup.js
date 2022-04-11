@@ -18,10 +18,9 @@ blackBox.style.opacity = "0";
 blackBox.style.display = "none";
 blackBox.style.transition = "opacity .3s linear";
 body.append(blackBox);
-console.log(window.getComputedStyle(blackBox).width);
 
 
-
+/**********************Исчезновение формы и появление попапа*************************/
 document.addEventListener('click', function(q){
 	if(q.target.className == "wrapper__form" || q.target.className == "black"){
 		if(counter==1){
@@ -39,7 +38,6 @@ document.addEventListener('click', function(q){
 		if(counter == 1){
 			blockForm.style.opacity = "0";
 			counter--;
-			console.log("counter= " + counter);
 			blockForm.addEventListener('transitionend', function f2(){
 			blockForm.style.display = "none";
 			
@@ -53,6 +51,7 @@ document.addEventListener('click', function(q){
 	}
 })
 
+/******************Исчезновение попапа*****************/
 document.addEventListener('click', function(s){
 	if(s.target.className == "black" || s.target.className == "popup"){
 		if(counter == 0){
@@ -68,6 +67,7 @@ document.addEventListener('click', function(s){
 	}
 })
 
+/*******************Появление формы и тени*******************/
 function feedbackForm(){	
 	if(counter==0){
 		blockForm.style.display = "block";
