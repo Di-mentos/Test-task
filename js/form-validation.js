@@ -4,10 +4,6 @@ var message = document.getElementById("message");
 var submit = document.getElementById("submit");
 var field = document.getElementsByClassName("field");
 
-var blockForm = document.getElementsByClassName("wrapper__form")[0];
-var blackBox = document.getElementsByClassName("black")[0];
-
-
 function validation(){
 	for(var i=0; i<field.length; i++){
 		if(field[i].value == ""){
