@@ -1,0 +1,47 @@
+@font-face{
+	font-family: 'Galien Regular';
+	src: local('Galien Regular'),
+	url(fonts/Galien-Regular.woff) format('woff');
+}
+
+@font-face{
+	font-family: 'TRY Galien Bold';
+	src: local('TRY Galien Bold'),
+	url(fonts/TRY_Galien-Bold.woff) format('woff');
+}
+
+@font-face{
+	font-family: 'Gilroy-Light';
+	src: local('Gilroy-Light'),
+	url(fonts/Gilroy-Light.woff) format('woff');
+}
+
+@font-face{
+	font-family: 'Gilroy-Light';
+	src: local('Gilroy-Light'),
+	url(fonts/Gilroy-Light.woff) format('woff');
+}
+
+@font-face{
+	font-family: 'Gilroy-Regular';
+	src: local('Gilroy-Regular'),
+	url(fonts/Gilroy-Regular.woff) format('woff');
+}
+
+@font-face{
+	font-family: 'Gilroy-Medium';
+	src: local('Gilroy-Medium'),
+	url(fonts/Gilroy-Medium.woff) format('woff');
+}
+
+@font-face{
+	font-family: 'Gilroy-SemiBold';
+	src: local('Gilroy-SemiBold'),
+	url(fonts/Gilroy-SemiBold.woff) format('woff');
+}
+
+@font-face{
+	font-family: 'Gilroy-Bold';
+	src: local('Gilroy-Bold'),
+	url(fonts/Gilroy-Bold.woff) format('woff');
+}

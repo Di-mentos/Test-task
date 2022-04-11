@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="zxx">
+	<head>
+		<title>Homepage</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/styles.css" rel="stylesheet">
+		<link href="css/reset.css" rel="stylesheet">
+		<link href="css/fonts.css" rel="stylesheet">		
+
+		<!--<link rel="icon" href=""> иконка для окна браузера-->
+	</head>
+	
+	<body>
+		<header class="wrapper">
+			<div class="wrapper__header-content header-content">
+				<div class="header-content__logo"><a href="index.html"><img src="images/logo.svg" alt="Logo" width="48" height="32"></a></div>
+				<nav class="header-content__menu menu">
+					<div class="menu__menu-icon"><button onclick="menuClick()"><img src="images/menu-icon.svg" alt="Menu-Icon" width="24" height="16"></button></div>
+					<div class="menu__submenu">
+						<div class="menu__item"><a href="index.html">Home</a></div>
+						<div class="menu__item"><a href="#9">Contacts</a></div>
+						<div class="menu__item"><a href="#9">About us</a></div>
+						<div class="menu__item"><a href="#9">Blog</a></div>
+					</div>
+				</nav>
+			</div>
+		</header>
+
+		<main class="wrapper">
+			<section class="wrapper__top-part top-part">
+				<div class="top-part__content content">
+					<div class="top-part__text-block">
+						<div class="top-part__text-header"><h1>New Automation Tool for Your Home</h1></div>
+						<div class="top-part__text-content"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus tristique vulputate ultrices ut mauris tellus at. Posuere sollicitudin odio tellus elit.</p></div>
+						<div class="top-part__button"><a href="#9">See Our Project</a></div>
+					</div>
+				</div>
+				<div class="top-part__image"><img src="images/illustration.png" alt="Illustration"></div>
+			</section>
+
+			<section class="wrapper__services services">
+				<div class="services__content content">
+					<div class="services__header"><h2>What we do to help our client grow in digital era,</h2></div>
+					<div class="services__blocks">
+						<div class="services__column1">
+							<div class="services__item item">
+								<div class="item__block">
+									<div class="item__image"><img src="images/image1.png" alt="Image01" id="image1"></div>
+									<div class="item__header"><h3>Make Your business To Be Better Famous In Internet</h3></div>
+									<div class="item__text">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+									</div>
+									<div class="item__link">
+										<a href="#7">Learn more</a>
+										<a href="#7"><img src="images/link-arrow.svg" alt="Arrow"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="services__column2">
+							<div class="services__item item">
+								<div class="item__block">
+									<div class="item__image"><img src="images/image2.png" alt="Image02"	id="image2"></div>
+									<div class="item__header" id="header2"><h3>Bring Technology To Your Comfrotable Home</h3></div>
+									<div class="item__text">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+									</div>
+									<div class="item__link">
+										<a href="#7">Learn more</a>
+										<a href="#7"><img src="images/link-arrow.svg" alt="Arrow"></a>
+									</div>
+								</div>
+							</div>
+							<div class="services__item item">
+								<div class="item__block">
+									<div class="item__image"><img src="images/image3.png" alt="Image03"	id="image3"></div>
+									<div class="item__header"><h3>Build Your Digital Product That Suitable For Your Need</h3></div>
+									<div class="item__text">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+									</div>
+									<div class="item__link">
+										<a href="#7">Learn more</a>
+										<a href="#7"><img src="images/link-arrow.svg" alt="Arrow"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="wrapper__clients clients">
+				<div class="clients__content content">
+					<div class="clients__text-block">
+						<div class="clients__header"><h2>Our Beloved Client</h2></div>
+						<div class="clients__header-text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p></div>
+					</div>
+					<div class="clients__list list">
+						<div class="list__row1">
+							<div class="list__cell cell"><p>LOGO CLIENT 1</p></div>
+							<div class="list__cell cell"><p>LOGO CLIENT 2</p></div>
+							<div class="list__cell cell"><p>LOGO CLIENT 3</p></div>
+							<div class="list__cell cell"><p>LOGO CLIENT 4</p></div>
+						</div>
+						<div class="list__row2">
+							<div class="list__cell cell"><p>LOGO CLIENT 5</p></div>
+							<div class="list__cell cell"><p>LOGO CLIENT 6</p></div>
+							<div class="list__cell cell"><p>LOGO CLIENT 7</p></div>
+							<div class="list__cell cell"><a href="#9">More Client</a></div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="wrapper">
+			<div class="wrapper__popup popup">
+				<div class="popup__content content">
+					<div class="popup__block">
+						<div class="popup__text"><p>Your message succesfully sent!</p></div>
+						<div class="popup__image"><img src="images/check2.png" alt="Check"></div>
+					</div>
+				</div>
+			</div>
+			<section class="wrapper__form">
+				<div class="wrapper__content content">
+					<div class="modal-form" onclick="validation()">
+						<div class="modal-form__header"><h3>SEND US MESSAGE</h3></div>
+						<form action="mailto:test@yandex.com" method="post">
+							<div class="modal-form__name-field">
+								<label for="name"><span>Full Name</span></label>
+								<input type="text" name="Name" placeholder="Your Name" id="name" class="field">
+							</div>
+							<div class="modal-form__email-field">
+								<label for="email"><span>Email</span></label>
+								<input type="email" name="Email" placeholder="Your Email" id="email" class="field">
+							</div>
+							<div class="modal-form__textarea-field">
+								<label for="message"><span>Message</span></label>
+								<textarea placeholder="Your Email" name="Message" id="message" class="field"></textarea>
+							</div>
+							<div class="modal-form__submit">
+								<input type="button" value="SUBMIT" id="submit">
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+			<section class="wrapper__block">
+				<div class="wrapper__footer-top footer-top">
+					<div class="footer-top__content content">
+						<div class="footer-top__content-block">
+							<div class="footer-top__text-block">
+								<div class="footer-top__header"><h2>Intersted to woek with our team?</h2></div>
+								<div class="footer-top__text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p></div>
+							</div>
+							<div class="footer-top__form-button form-button"><button onclick="feedbackForm()"><span>Let's Talk</span></button></div>
+						</div>
+					</div>
+					<div class="footer-top__section-border"><img src="images/section-line.png" alt="Line"></div>
+				</div>
+				<div class="wrapper__footer-contacts footer-contacts">
+					<div class="footer-contacts__content content">
+						<div class="footer-contacts__content-block">
+							<div class="footer-contacts__contacts">
+								<div class="footer-contacts__footer-logo">
+									<img src="images/logo-footer.svg" alt="Logo">
+									<p>Afrianska</p>
+								</div>
+								<ul class="footer-contacts__list">
+									<li><span>A</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+									<li><span>T.</span><a href="tel:+62-812-7313-4321">+62-812-7313-4321</a></li>
+									<li><span>E.</span><a href="mailto:hello.afrian@gmail.com">hello.afrian@gmail.com</a></li>
+								</ul>
+							</div>
+							<div class="footer-contacts__about">
+								<h3>About US</h3>
+								<ul class="footer-contacts__list2">
+									<li><a href="#8">About</a></li>
+									<li><a href="#8">What We Do</a></li>
+									<li><a href="#8">Project</a></li>
+									<li><a href="#8">How It Work With Us</a></li>
+								</ul>
+							</div>
+							<div class="footer-contacts__follow">
+								<h3>Follow US</h3>
+								<ul class="footer-contacts__list2">
+									<li><a href="#8">Instagram</a></li>
+									<li><a href="#8">Facebook</a></li>
+									<li><a href="#8">LinkedIn</a></li>
+									<li><a href="#8">Youtube</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="footer-contacts__copyright"><p>2019 &copy; Afrianska. All rights reserved.</p></div>
+					</div>
+				</div>
+			</section>
+		</footer>
+	<script src="js/dropdown-menu.js"></script>
+	<script src="js/form-validation.js"></script>
+	<script src="js/form-and-popup.js"></script>
+	</body>
+</html>
